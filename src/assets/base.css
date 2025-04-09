@@ -1,0 +1,31 @@
+/* Font: Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Font: Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+:root {
+  --font-family-body: "Instrument Sans", sans-serif;
+  --font-family-title: "Figtree", sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6, .font-title{
+  font-family: var(--font-family-title)!important;
+}
+
+
+body {
+  min-height: 100vh;
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  letter-spacing: -0.015rem;
+  font-family: var(--font-family-body);
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
